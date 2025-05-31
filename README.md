@@ -40,7 +40,7 @@ This creates lines of frequency of cooperators vs temptation.
 The following dependencies are required to run the simulations and analysis:
 
 ```text
-Python >= 3.9
+Python == 3.9
 numpy == 2.0.2
 networkx == 3.2.1
 matplotlib == 3.9.4
