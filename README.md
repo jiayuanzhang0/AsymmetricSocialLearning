@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1bb85992-ae86-4e56-b119-9730c48f5522)# AsymmetricSocialLearning
+# AsymmetricSocialLearning
 
 This repository contains simulation code and analysis scripts for the paper "Evolution of Cooperation with Asymmetric Social Learning". The model explores how asymmetric payoff sensitivity in strategy update affects evolutionary dynamics in networked populations.
 
