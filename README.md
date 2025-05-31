@@ -26,7 +26,7 @@ asymmetric/
 │       └── plot_br_freqCooperation.py  # Generates figure of frequency of cooperators 
 │
 └── requirements.txt              # Python dependencies
-Running the Simulation and Analysis
+## Running the Simulation and Analysis
 1. Perform Evolutionary Simulations
 bash
 cd asymmetric/Code/simulation
