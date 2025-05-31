@@ -1,4 +1,4 @@
-# AsymmetricSocialLearning
+![image](https://github.com/user-attachments/assets/1bb85992-ae86-4e56-b119-9730c48f5522)# AsymmetricSocialLearning
 
 This repository contains simulation code and analysis scripts for the paper "Evolution of Cooperation with Asymmetric Social Learning". The model explores how asymmetric payoff sensitivity in strategy update affects evolutionary dynamics in networked populations.
 
@@ -33,3 +33,15 @@ This calculates mean cooperation frequency over last 1000 time steps of evolutio
 python plot_br_freqCooperation.py
 ```
 This creates lines of frequency of cooperators vs temptation.
+
+
+## Requirements
+
+The following dependencies are required to run the simulations and analysis:
+
+```text
+Python >= 3.9
+numpy == 2.0.2
+networkx == 3.2.1
+matplotlib == 3.9.4
+```
