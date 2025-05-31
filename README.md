@@ -18,7 +18,8 @@ cd asymmetric/Code/simulation
 python main.py
 ```
 This simulates the evolution process across the parameter space.
-Output: time series of frequency of cooperators 
+
+Output: time series of frequency of cooperators.
 
 2. Compute mean equilibrium frequency of cooperators 
 ```bash
@@ -31,4 +32,4 @@ This calculates mean cooperation frequency over last 1000 time steps of evolutio
 ```bash
 python plot_br_freqCooperation.py
 ```
-This creates lines of frequency of cooperators vs temptation
+This creates lines of frequency of cooperators vs temptation.
