@@ -290,16 +290,13 @@ class params_case:
 
 if __name__ == "__main__":
     
-    ngrid = 2
-    # ngrid = 30
+    ngrid = 30
     # ngrid = 100
     
     # nsim = 1
-    nsim = 2
-    # nsim = 30
+    nsim = 30
     
-    N = 10
-    # N = 200
+    N = 200
     
     params_list = []
     for network_type in [
@@ -356,8 +353,7 @@ if __name__ == "__main__":
                                 params_list.append(params)
         
     # Parallelize using Pool
-    # num_processes = cpu_count()-8  
-    num_processes = 2
+    num_processes = 1
     with Pool(num_processes) as pool:
         pool.map(play_case, params_list)
 
