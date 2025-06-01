@@ -20,6 +20,8 @@ Modify root_dir in Code/Dir.py to the directory where the project is located. Fo
 root_dir = 'E:/project/AsymmetricSocialLearning/'
 ```
 
+Then, run the main program.
+
 ```bash
 cd Code/simulation
 python main.py
