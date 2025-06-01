@@ -14,6 +14,11 @@ pip install -r requirements.txt
 ## Running the simulation and analysis
 
 1. Perform evolutionary simulations
+Modify root_dir in Code/Dir.py to the directory where the project is located. For example:
+```bash
+root_dir = 'E:/project/AsymmetricSocialLearning/'
+```
+
 ```bash
 cd Code/simulation
 python main.py
