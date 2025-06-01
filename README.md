@@ -7,6 +7,7 @@ This repository contains simulation code and analysis scripts for the paper "Evo
 ```bash
 conda create --name asymmetric_payoff_sensitivity python=3.9
 conda activate asymmetric_payoff_sensitivity
+cd asymmetric/Code/simulation
 pip install -r requirements.txt
 ```
 
@@ -14,7 +15,6 @@ pip install -r requirements.txt
 
 1. Perform evolutionary simulations
 ```bash
-cd asymmetric/Code/simulation
 python main.py
 ```
 This simulates the evolution process across the parameter space.
