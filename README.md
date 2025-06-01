@@ -11,7 +11,7 @@ cd AsymmetricSocialLearning
 pip install -r requirements.txt
 ```
 
-## Running the simulation and analysis
+## Run the simulation and analysis
 
 1. Perform evolutionary simulations
 
